@@ -23,3 +23,45 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+*.class
+
+#package file
+
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+log/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+.mvn/
+
+/idea/
+*.ipr
+*.iml
+*.iws
+*.cmd
+mvnw
+
+# temp file
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
