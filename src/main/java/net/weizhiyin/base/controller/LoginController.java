@@ -14,10 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpSession;
 
 @Controller
-@PropertySource("classpath:application.properties")
 public class LoginController {
-    @Value("${BMAPAK}")
-    private String bmapak;
     @Autowired
     private UserService userService;
 
@@ -25,7 +22,6 @@ public class LoginController {
     @Login
     public ModelAndView login(){
         ModelAndView view=new ModelAndView("/index/index");
-        view.addObject("bmapak",bmapak);
         return view;
     }
 }
