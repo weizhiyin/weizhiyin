@@ -1,4 +1,4 @@
-package net.weizhiyin.base.annotation;
+package net.weizhiyin.common.annotation;
 
 import java.lang.annotation.*;
 

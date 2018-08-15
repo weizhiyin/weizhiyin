@@ -1,6 +1,6 @@
 package net.weizhiyin.common.config;
 
-import net.weizhiyin.base.annotation.Login;
+import net.weizhiyin.common.annotation.Login;
 import net.weizhiyin.base.entity.User;
 import net.weizhiyin.common.utils.SessionUtil;
 import org.springframework.stereotype.Component;

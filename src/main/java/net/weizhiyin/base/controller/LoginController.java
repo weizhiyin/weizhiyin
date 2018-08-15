@@ -1,6 +1,6 @@
 package net.weizhiyin.base.controller;
 
-import net.weizhiyin.base.annotation.Login;
+import net.weizhiyin.common.annotation.Login;
 import net.weizhiyin.base.entity.User;
 import net.weizhiyin.base.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
