@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.weizhiyin.base.mapper.SysfileMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="net.weizhiyin.base.entity.Sysfile">
+        <id column="id" property="id" />
+        <result column="sysCreateBy" property="sysCreateBy" />
+        <result column="sysCreate" property="sysCreate" />
+        <result column="sysUpdateBy" property="sysUpdateBy" />
+        <result column="sysUpdate" property="sysUpdate" />
+        <result column="fileName" property="fileName" />
+        <result column="fileType" property="fileType" />
+        <result column="filePath" property="filePath" />
+        <result column="bussId" property="bussId" />
+        <result column="bussType" property="bussType" />
+        <result column="uploadDate" property="uploadDate" />
+        <result column="fileSize" property="fileSize" />
+        <result column="fileMD5" property="fileMD5" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sysCreateBy, sysCreate, sysUpdateBy, sysUpdate, fileName, fileType, filePath, bussId, bussType, uploadDate, fileSize, fileMD5
+    </sql>
+
+</mapper>

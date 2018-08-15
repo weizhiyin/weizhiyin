@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.weizhiyin.base.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="net.weizhiyin.base.entity.User">
+        <result column="id" property="id" />
+        <result column="sysCreateBy" property="sysCreateBy" />
+        <result column="sysCreate" property="sysCreate" />
+        <result column="sysUpdateBy" property="sysUpdateBy" />
+        <result column="sysUpdate" property="sysUpdate" />
+        <result column="name" property="name" />
+        <result column="pwd" property="pwd" />
+        <result column="sex" property="sex" />
+        <result column="mobile" property="mobile" />
+        <result column="email" property="email" />
+        <result column="userType" property="userType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sysCreateBy, sysCreate, sysUpdateBy, sysUpdate, name, pwd, sex, mobile, email, userType
+    </sql>
+
+</mapper>
